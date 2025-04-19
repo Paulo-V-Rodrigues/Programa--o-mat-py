@@ -2,7 +2,7 @@ import os
 os.system('cls')
 
 altura = float(input("Digite a altura da pessoa: "))
-sexo = input("Digite o seu sexo 'M' para masculino ou 'F' para feminino: ")
+sexo = input("Digite o seu sexo M ou F: ")
 if sexo == 'm':
     peso_ideal = (72.7 * altura) - 58
 elif sexo == 'f':
